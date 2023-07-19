@@ -1,0 +1,273 @@
+html,body{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.wrapper {
+    background-image: url("../img/backgroun_stars.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filter-white {
+    filter: invert(28%) sepia(90%) saturate(0%) hue-rotate(51deg) brightness(234%) contrast(109%);
+}
+
+.filter-gray {
+    filter: invert(28%) sepia(90%) saturate(0%) hue-rotate(51deg) brightness(234%) contrast(109%);
+}
+
+nav div ul li a,
+.navbar-brand {
+    color: white !important;
+}
+
+.btn-rounded {
+    border-radius: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.btnLogin-espaciado {
+    margin-left: 40px !important;
+    margin-right: 19px !important;
+}
+
+.tamanio-texto {
+    font-size: 70px;
+}
+
+.tamanio-p {
+    font-size: 18px;
+}
+
+.color-text {
+    color: rgb(52, 4, 101);
+}
+
+.card-radius {
+    border-radius: 10px !important;
+}
+
+.circular-gradient {
+    background: radial-gradient(#420081, #06002D);
+}
+
+.card2 {
+    width: 250px !important;
+    margin: 0 auto;
+}
+
+.card3 {
+    border-color: #EBCCEC;
+    background-color: #F3F3F3;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(199, 199, 199, 1) !important;
+    -moz-box-shadow: 0px 0px 11px 4px rgba(199, 199, 199, 1) !important;
+    box-shadow: 0px 0px 11px 4px rgba(199, 199, 199, 1) !important;
+}
+
+.circle {
+    border-radius: 100px;
+}
+
+.testimonio-circle-purple {
+    width: 32px;
+    height: 32px;
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+.form-landing {
+    background-color: #E6E6E6;
+
+}
+
+.footer-text {
+    color: #737373;
+}
+
+.social-network {
+    width: 20px !important;
+    height: 20px !important;
+    color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+
+    .btnLogin-espaciado {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+.card-body-fix {
+    padding: 2px !important;
+}
+
+.btn-suscribir {
+    background-color: #9747FF !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+@media (max-width: 575.98px) {
+    .non-responsive {
+        display: none !important;
+    }
+
+    .responsive {
+        display: flex !important;
+    }
+
+    .btnLogin-espaciado {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .tamanio-texto {
+        font-size: 50px;
+        text-align: center !important;
+    }
+
+    .text-landing-responsive-1 {
+        text-align: center !important;
+    }
+
+    .btn-responsive-1 {
+        margin-left: 137px;
+    }
+
+  
+
+    .img-tarot-responsive-2 {
+        width: 50px;
+    }
+
+    .imgtarot-responsive-1 {
+        margin-top: 23px;
+    }
+
+    .card-body-fix {
+        padding: 12px !important;
+        font-size: 13px;
+    }
+
+    .card2 {
+        width: 170px !important;
+        margin: 0 auto;
+        font-size: 12px;
+        margin-bottom: 29px;
+        padding: 10px;
+
+    }
+
+    .card2 img {
+        width: 90px;
+    }
+
+    .form-landing {
+        width: 300px;
+    }
+
+    .btn-lg {
+        font-size: 15px !important;
+        width: 90px !important;
+        padding: 11px !important;
+    }
+
+    .form-landing input {
+        padding: 5px !important;
+        padding-left: 12px !important;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .non-responsive {
+        display: flex !important;
+    }
+
+    .responsive {
+        display: none !important;
+    }
+
+    .btnLogin-espaciado {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .btn-login-responsive {
+        width: 95%;
+    }
+    .card-responsive-2 {
+        padding: 5px !important;
+    }
+    .card2 {
+        width: 165px !important;
+        padding-top: 11px;
+    }
+
+    .card2 img {
+        width: 70px;
+    }
+    .btn-lg {
+        font-size: 15px !important;
+        width: 90px !important;
+        padding: 11px !important;
+    }
+    .form-landing {
+        width: 600px;
+    }
+
+    .form-landing input {
+        padding: 5px !important;
+        padding-left: 12px !important;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+
+    .btnLogin-espaciado {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+
+
+@media (min-width: 1199.98px) {
+    .non-responsive {
+        display: flex !important;
+    }
+
+    .responsive {
+        display: none !important;
+    }
+
+    .btn-login-responsive {
+        width: auto !important;
+    }
+}
+
+
+@media (min-width: 1399.98px) {
+    .non-responsive {
+        display: flex !important;
+    }
+
+    .responsive {
+        display: none !important;
+    }
+
+    .card2 {
+        width: 293px !important;
+        padding-top: 12px;
+    }
+
+    .card2 img {
+        width: 100px;
+    }
+}
