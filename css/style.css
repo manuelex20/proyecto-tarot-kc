@@ -5,30 +5,13 @@ body {
 }
 
 .wrapper {
-    background-image: url("../img/backgroun_stars.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../img/backgroun_stars.svg") no-repeat scroll center;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-size: cover;
-    background-attachment: scroll;
 }
 
-.wrapper:after {
-    content: "";
-    position: fixed;
-    /* stretch a fixed position to the whole screen */
-    top: 0;
-    height: 100vh;
-    /* fix for mobile browser address bar appearing disappearing */
-    left: 0;
-    right: 0;
-    z-index: -1;
-    /* needed to keep in the background */
-    background: url(https://www.w3schools.com/css/trolltunga.jpg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 .filter-white {
     filter: invert(28%) sepia(90%) saturate(0%) hue-rotate(51deg) brightness(234%) contrast(109%);
@@ -69,6 +52,7 @@ nav div ul li a,
 .card-radius {
     border-radius: 10px !important;
 }
+
 
 .circular-gradient {
     background: radial-gradient(#420081, #06002D);
