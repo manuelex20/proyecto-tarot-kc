@@ -1,4 +1,5 @@
-html,body{
+html,
+body {
     width: 100% !important;
     height: 100% !important;
 }
@@ -9,6 +10,24 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+}
+
+.wrapper:after {
+    content: "";
+    position: fixed;
+    /* stretch a fixed position to the whole screen */
+    top: 0;
+    height: 100vh;
+    /* fix for mobile browser address bar appearing disappearing */
+    left: 0;
+    right: 0;
+    z-index: -1;
+    /* needed to keep in the background */
+    background: url(https://www.w3schools.com/css/trolltunga.jpg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .filter-white {
@@ -141,7 +160,7 @@ nav div ul li a,
         margin-left: 137px;
     }
 
-  
+
 
     .img-tarot-responsive-2 {
         width: 50px;
@@ -202,9 +221,11 @@ nav div ul li a,
     .btn-login-responsive {
         width: 95%;
     }
+
     .card-responsive-2 {
         padding: 5px !important;
     }
+
     .card2 {
         width: 165px !important;
         padding-top: 11px;
@@ -213,11 +234,13 @@ nav div ul li a,
     .card2 img {
         width: 70px;
     }
+
     .btn-lg {
         font-size: 15px !important;
         width: 90px !important;
         padding: 11px !important;
     }
+
     .form-landing {
         width: 600px;
     }
