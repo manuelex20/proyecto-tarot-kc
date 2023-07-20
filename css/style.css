@@ -202,22 +202,100 @@ footer {
     margin-top: 20px;
     font-weight: 400;
 }
-.form-landing input{
+
+.form-landing input {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
 
-@media  (min-width: 300px) and(max-width: 362px) {
+.descubre-tu-horoscopo {
+    margin-bottom: 150px;
+}
+
+.cnt-contactanos h1 {
+    font-size: 48px;
+    line-height: 56.25px;
+}
+
+.cnt-contactanos p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+}
+
+.cnt-contactanos input,
+.cnt-contactanos textarea {
+    background-color: #F7F7F7 !important;
+}
+
+.cnt-contactanos form {
+    max-width: 806px !important;
+    margin: 10px auto;
+}
+
+
+@media (min-width: 300px) and(max-width: 362px) {
     .horoscopo-card {
         width: 187px !important;
         padding-bottom: 20px !important;
     }
+
+    .cnt-contactanos h1 {
+        font-size: 38px !important;
+        line-height: 56.25px !important;
+    }
+
+    .cnt-contactanos p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.13px;
+    }
+
 }
+
+@media (min-width: 320px) {
+    .horoscopo-card {
+        width: 187px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .cnt-contactanos h1 {
+        font-size: 38px !important;
+        line-height: 56.25px !important;
+    }
+
+    .cnt-contactanos p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.13px;
+    }
+
+}
+
 
 @media (min-width: 373px) and (max-width: 391px) {
     .horoscopo-card {
         width: 175px !important;
         padding-bottom: 20px !important;
+    }
+
+    .cnt-contactanos {
+        margin-top: 5px !important;
+    }
+
+    .cnt-contactanos h1 {
+        font-size: 42px !important;
+        line-height: 56.25px !important;
+    }
+
+    .cnt-contactanos p {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        line-height: 18.13px !important;
+    }
+
+    .cnt-contactanos textarea {
+        height: 90px !important;
     }
 }
 
@@ -226,6 +304,17 @@ footer {
         width: 180px !important;
         padding-bottom: 20px !important;
     }
+
+    .cnt-contactanos h1 {
+        font-size: 38px !important;
+        line-height: 56.25px !important;
+    }
+
+    .cnt-contactanos p {
+        font-size: 24px !important;
+        font-weight: 400 !important;
+        line-height: 28.13px !important;
+    }
 }
 
 @media (min-width: 412px) and (max-width: 426px) {
@@ -233,7 +322,23 @@ footer {
         width: 180px !important;
         padding-bottom: 20px !important;
     }
+
+    .cnt-contactanos h1 {
+        font-size: 42px !important;
+        line-height: 56.25px !important;
+    }
+
+    .cnt-contactanos p {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        line-height: 22.13px !important;
+    }
+
+    .cnt-contactanos textarea {
+        height: 90px !important;
+    }
 }
+
 @media (max-width: 575.98px) {
     .non-responsive {
         display: none !important;
@@ -422,8 +527,24 @@ footer {
         width: 240px !important;
         padding-bottom: 23px !important;
     }
+
     .imgtarot-responsive-1 {
         margin-top: 97px !important;
+    }
+
+    .cnt-contactanos h1 {
+        font-size: 42px !important;
+        line-height: 56.25px !important;
+    }
+
+    .cnt-contactanos p {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        line-height: 22.13px !important;
+    }
+
+    .cnt-contactanos textarea {
+        height: 90px !important;
     }
 }
 
@@ -460,6 +581,7 @@ footer {
         padding-top: 100px;
         padding-left: 50px;
     }
+
 }
 
 
@@ -480,6 +602,7 @@ footer {
     .card2 img {
         width: 100px;
     }
+
 }
 
 @media (min-width: 1439px) {
