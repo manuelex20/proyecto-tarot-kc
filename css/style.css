@@ -207,7 +207,7 @@ footer {
     border-bottom-right-radius: 0 !important;
 }
 
-@media (max-width: 320.98px) {
+@media  (min-width: 300px) and(max-width: 360px) {
     .horoscopo-card {
         width: 187px !important;
         padding-bottom: 20px !important;
@@ -216,7 +216,14 @@ footer {
 
 @media (max-width: 375.98px) {
     .horoscopo-card {
-        width: 187px !important;
+        width: 160px !important;
+        padding-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 424px) {
+    .horoscopo-card {
+        width: 180px !important;
         padding-bottom: 20px !important;
     }
 }
