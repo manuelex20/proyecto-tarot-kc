@@ -207,21 +207,28 @@ footer {
     border-bottom-right-radius: 0 !important;
 }
 
-@media  (min-width: 300px) and(max-width: 360px) {
+@media  (min-width: 300px) and(max-width: 362px) {
     .horoscopo-card {
         width: 187px !important;
         padding-bottom: 20px !important;
     }
 }
 
-@media (max-width: 375.98px) {
+@media (min-width: 373px) and (max-width: 391px) {
     .horoscopo-card {
-        width: 160px !important;
+        width: 175px !important;
         padding-bottom: 20px !important;
     }
 }
 
-@media (min-width: 412px) and (max-width: 424px) {
+@media (min-width: 392px) and (max-width: 394px) {
+    .horoscopo-card {
+        width: 180px !important;
+        padding-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 426px) {
     .horoscopo-card {
         width: 180px !important;
         padding-bottom: 20px !important;
