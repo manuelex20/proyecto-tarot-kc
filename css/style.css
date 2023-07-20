@@ -123,6 +123,17 @@ nav div ul li a,
     text-align: center !important;
 }
 
+.purple-text {
+    color: #9747FF !important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.bg-purple {
+    background-color: #9747FF;
+}
 
 @media (max-width: 575.98px) {
     .non-responsive {
@@ -258,7 +269,7 @@ nav div ul li a,
     }
 
     .imgtarot-responsive-1 {
-       
+
         margin-left: 25px !important;
     }
 
@@ -338,7 +349,8 @@ nav div ul li a,
         font-size: 50px;
         text-align: left !important;
     }
-    .cnt-zona-astrologica{
+
+    .cnt-zona-astrologica {
         padding-top: 100px;
         padding-left: 50px;
     }
