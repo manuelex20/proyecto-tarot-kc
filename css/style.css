@@ -207,6 +207,19 @@ footer {
     border-bottom-right-radius: 0 !important;
 }
 
+@media (max-width: 320.98px) {
+    .horoscopo-card {
+        width: 187px !important;
+        padding-bottom: 20px !important;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .horoscopo-card {
+        width: 187px !important;
+        padding-bottom: 20px !important;
+    }
+}
 @media (max-width: 575.98px) {
     .non-responsive {
         display: none !important;
