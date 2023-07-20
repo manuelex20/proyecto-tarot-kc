@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 html,
 body {
     width: 100% !important;
@@ -87,6 +93,13 @@ nav div ul li a,
 
 }
 
+footer {
+
+    border-top: solid 1px;
+    border-top-color: #f5f4f4;
+    background-color: #FAFAFA;
+}
+
 .footer-text {
     color: #737373;
 }
@@ -132,7 +145,66 @@ nav div ul li a,
 }
 
 .bg-purple {
-    background-color: #9747FF;
+    background-color: #9747FF !important;
+}
+
+.active {
+    color: #9747FF !important;
+}
+
+/*******************HOROSCOPO************************/
+
+.titulo-horoscopo {
+    font-size: 64px !important;
+    line-height: 75px;
+    color: #480086 !important;
+    padding-bottom: 20px;
+}
+
+.que-es-el-horoscopo p {
+    font-size: 20px !important;
+
+}
+
+.purple-text-dark {
+    color: #1F0061 !important;
+
+}
+
+.cnt-horoscopo-tierra {
+    background-color: #1F0061 !important;
+}
+
+.leer-mas-sobre-el-cielo p {
+    font-size: 24px !important;
+}
+
+.leer-mas-sobre-el-cielo a {
+    font-size: 27px !important;
+}
+
+.descubre-tu-horoscopo h1 {
+    font-size: 48px !important;
+}
+
+.descubre-tu-horoscopo h4 {
+    font-size: 24px !important;
+}
+
+.boletin-completo h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.boletin-completo p {
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.form-landing input{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
 }
 
 @media (max-width: 575.98px) {
@@ -161,8 +233,6 @@ nav div ul li a,
     .btn-responsive-1 {
         margin-left: 137px;
     }
-
-
 
     .img-tarot-responsive-2 {
         width: 50px;
@@ -215,6 +285,35 @@ nav div ul li a,
         font-size: 50px;
         text-align: center !important;
     }
+
+    /*Horoscopo .que-es-el-horoscopo h1*/
+    .titulo-horoscopo {
+        font-size: 50px !important;
+        line-height: normal !important;
+    }
+
+    .que-es-el-horoscopo {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .que-es-el-horoscopo p {
+        font-size: 16px !important;
+        text-align: justify;
+    }
+
+    .horoscopo-card {
+        width: 212px;
+        padding-bottom: 20px;
+    }
+
+    .horoscopo-card .card .card-body img {
+        width: 70px;
+    }
+
+    .horoscopo-card .card .card-body p {
+        padding: 0px !important;
+    }
 }
 
 @media (min-width: 767.98px) {
@@ -250,7 +349,7 @@ nav div ul li a,
 
     .btn-lg {
         font-size: 15px !important;
-        width: 90px !important;
+        width: 100px !important;
         padding: 11px !important;
     }
 
@@ -291,38 +390,18 @@ nav div ul li a,
         font-size: 50px;
         text-align: left !important;
     }
-}
 
-@media (mix-width: 991.98px) {
-    .tamanio-texto {
-        font-size: 50px;
-        text-align: left !important;
+    .horoscopo-card {
+        width: 240px !important;
+        padding-bottom: 23px !important;
     }
-}
-
-@media (max-width: 991.98px) {
-
-    .btnLogin-espaciado {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-
-    .responsive {
-        display: flex;
-    }
-
-    .non-responsive {
-        display: none;
-    }
-
     .imgtarot-responsive-1 {
-        margin-top: 30px !important;
-
+        margin-top: 97px !important;
     }
-
-
-
 }
+
+
+
 
 
 
@@ -373,5 +452,11 @@ nav div ul li a,
 
     .card2 img {
         width: 100px;
+    }
+}
+
+@media (min-width: 1439px) {
+    .horoscopo-card {
+        width: 220px !important;
     }
 }
