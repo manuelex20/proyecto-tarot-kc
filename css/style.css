@@ -1,4 +1,5 @@
-html,body{
+html,
+body {
     width: 100% !important;
     height: 100% !important;
 }
@@ -113,6 +114,16 @@ nav div ul li a,
     border-bottom-left-radius: 0 !important;
 }
 
+.bolder2 {
+    font-weight: 700 !important;
+}
+
+.tamanio-texto {
+    font-size: 50px;
+    text-align: center !important;
+}
+
+
 @media (max-width: 575.98px) {
     .non-responsive {
         display: none !important;
@@ -140,7 +151,7 @@ nav div ul li a,
         margin-left: 137px;
     }
 
-  
+
 
     .img-tarot-responsive-2 {
         width: 50px;
@@ -156,7 +167,7 @@ nav div ul li a,
     }
 
     .card2 {
-        width: 170px !important;
+        width: 164px !important;
         margin: 0 auto;
         font-size: 12px;
         margin-bottom: 29px;
@@ -181,6 +192,17 @@ nav div ul li a,
     .form-landing input {
         padding: 5px !important;
         padding-left: 12px !important;
+        font-size: 15px !important;
+    }
+
+    .footer-text-size {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .tamanio-texto {
+        font-size: 50px;
+        text-align: center !important;
     }
 }
 
@@ -201,22 +223,26 @@ nav div ul li a,
     .btn-login-responsive {
         width: 95%;
     }
+
     .card-responsive-2 {
         padding: 5px !important;
     }
+
     .card2 {
-        width: 165px !important;
+        width: 170px !important;
         padding-top: 11px;
     }
 
     .card2 img {
         width: 70px;
     }
+
     .btn-lg {
         font-size: 15px !important;
         width: 90px !important;
         padding: 11px !important;
     }
+
     .form-landing {
         width: 600px;
     }
@@ -224,9 +250,44 @@ nav div ul li a,
     .form-landing input {
         padding: 5px !important;
         padding-left: 12px !important;
+        font-size: 15px !important;
+    }
+
+    .cnt-btn-separar-cita {
+        justify-content: left !important;
+    }
+
+    .imgtarot-responsive-1 {
+       
+        margin-left: 25px !important;
+    }
+
+    .btn-login-responsive {
+        width: 100% !important;
+    }
+
+    .form-landing {
+        width: 600px !important;
+    }
+
+    .form-landing input {
+        padding: 5px !important;
+        padding-left: 12px !important;
+        font-size: 15px !important;
+    }
+
+    .tamanio-texto {
+        font-size: 50px;
+        text-align: left !important;
     }
 }
 
+@media (mix-width: 991.98px) {
+    .tamanio-texto {
+        font-size: 50px;
+        text-align: left !important;
+    }
+}
 
 @media (max-width: 991.98px) {
 
@@ -234,6 +295,22 @@ nav div ul li a,
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+
+    .responsive {
+        display: flex;
+    }
+
+    .non-responsive {
+        display: none;
+    }
+
+    .imgtarot-responsive-1 {
+        margin-top: 30px !important;
+
+    }
+
+
+
 }
 
 
@@ -249,6 +326,21 @@ nav div ul li a,
 
     .btn-login-responsive {
         width: auto !important;
+    }
+
+    .imgtarot-responsive-1 {
+        margin-top: 0px !important;
+        margin-left: 25px !important;
+
+    }
+
+    .tamanio-texto {
+        font-size: 50px;
+        text-align: left !important;
+    }
+    .cnt-zona-astrologica{
+        padding-top: 100px;
+        padding-left: 50px;
     }
 }
 
