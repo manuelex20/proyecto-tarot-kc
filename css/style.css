@@ -77,6 +77,12 @@ nav div ul li a,
     box-shadow: 0px 0px 11px 4px rgba(199, 199, 199, 1) !important;
 }
 
+.shadow2 {
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(199, 199, 199, 1) !important;
+    -moz-box-shadow: 0px 0px 11px 4px rgba(199, 199, 199, 1) !important;
+    box-shadow: -9px -13px 51px 5px rgba(199, 199, 199, 1) !important;
+}
+
 .circle {
     border-radius: 100px;
 }
@@ -233,6 +239,29 @@ footer {
     margin: 10px auto;
 }
 
+.form-registro {
+    max-width: 537px !important;
+    margin: 10px auto;
+}
+
+.cnt-login-google {}
+
+.cnt-login-google img {
+    height: 70px;
+}
+
+.form-registro hr {
+    height: 1px;
+    width: 243px;
+}
+
+.hr-l {
+    margin-right: 20px;
+}
+
+.hr-r {
+    margin-left: 20px;
+}
 
 @media (min-width: 300px) and(max-width: 362px) {
     .horoscopo-card {
