@@ -263,6 +263,13 @@ footer {
     margin-left: 20px;
 }
 
+.form-registro input {
+    margin-bottom: 10px;
+}
+.form-footer{
+    font-size: 15px !important;
+}
+
 @media (min-width: 300px) and(max-width: 362px) {
     .horoscopo-card {
         width: 187px !important;
@@ -299,6 +306,21 @@ footer {
         line-height: 16.13px;
     }
 
+    .cnt-login-google img {
+        height: 45px !important;
+    }
+
+    .form-registro p {
+        text-align: center !important;
+    }
+
+    .btn-continuar {
+        margin-top: 3px !important;
+    }
+
+    .form-footer {
+        font-size: 10px;
+    }
 }
 
 
@@ -365,6 +387,9 @@ footer {
 
     .cnt-contactanos textarea {
         height: 90px !important;
+    }
+    .form-footer{
+        font-size: 15px;
     }
 }
 
