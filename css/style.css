@@ -269,6 +269,9 @@ footer {
 .form-footer{
     font-size: 15px !important;
 }
+.text-right{
+    text-align: right !important;
+}
 
 @media (min-width: 300px) and(max-width: 362px) {
     .horoscopo-card {
@@ -308,10 +311,6 @@ footer {
 
     .cnt-login-google img {
         height: 45px !important;
-    }
-
-    .form-registro p {
-        text-align: center !important;
     }
 
     .btn-continuar {
