@@ -1,69 +1,78 @@
-#carrusel {
-    float: left;
 
-    overflow: hidden;
-    height: 440px;
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
-#carrusel .left-arrow {
-    position: absolute;
-    left: 10px;
-    z-index: 1;
-    top: 50%;
-    margin-top: -9px;
-}
-
-#carrusel .right-arrow {
-    position: absolute;
-    right: 10px;
-    z-index: 1;
-    top: 50%;
-    margin-top: -9px;
-}
-
-.carrusel {
-    width: 4000px;
-    /*left: 0px;*/
-    position: absolute;
-    z-index: 0;
-}
-
-.carrusel>div {
-    float: left;
-    height: 100%;
-    margin-right: 20px;
-    width: 393px;
-    text-align: center;
-}
-
-.carrusel img {
-    cursor: pointer;
-}
-
-.product {
-    border: #CCCCCC 1px solid;
-}
-
-#left-arrow,
-#right-arrow {
-    opacity: 0.5 !important;
-}
-
-#left-arrow:hover,
-#right-arrow:hover {
-    opacity: 1 !important;
-}
-
-@media (min-width: 319.98px) {
-    .carrusel>div {
-        float: left;
-        height: 100%;
-        margin-right: 20px;
-        width: 393px;
-        text-align: center;
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(0);
     }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100% !important;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100% !important;
+    width: 350px;
+}
+.slider .slide div{
+    margin-top:10px; margin-left: 10px;
+}
+.slide div div{
+    border-radius: 16px !important;
+}
+.slide div div div img{
+    margin-top: -70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px !important;
 
 }
