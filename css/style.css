@@ -266,10 +266,12 @@ footer {
 .form-registro input {
     margin-bottom: 10px;
 }
-.form-footer{
+
+.form-footer {
     font-size: 15px !important;
 }
-.text-right{
+
+.text-right {
     text-align: right !important;
 }
 
@@ -387,7 +389,8 @@ footer {
     .cnt-contactanos textarea {
         height: 90px !important;
     }
-    .form-footer{
+
+    .form-footer {
         font-size: 15px;
     }
 }
