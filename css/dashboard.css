@@ -63,6 +63,10 @@ body {
     padding: 2px 20px;
 }
 
+.imgLogo {
+    width: 70px;
+}
+
 @media (max-width: 575.98px) {
 
     .side-navbar {
@@ -76,6 +80,7 @@ body {
         color: #100901;
         margin-left: 0 !important;
     }
+
     .active-cont {
         margin-left: 170px !important;
     }
