@@ -26,7 +26,9 @@ body {
     cursor: pointer !important;
     background-color: #9747FF;
 }
-
+.text-purple{
+    color: #9747FF !important;
+}
 .nav-link-active span {
     color: #ffffff !important;
 
@@ -70,6 +72,10 @@ body {
 .titulos {
     font-size: 16px;
     font-weight: 500;
+}
+
+.container2 {
+    background-color: #F6F5FF !important;
 }
 
 @media (max-width: 575.98px) {
