@@ -48,7 +48,7 @@ body {
 
 /* for main section */
 .active-cont {
-    margin-left: 180px;
+    margin-left: 175px;
 }
 
 #menu-btn {
@@ -64,7 +64,12 @@ body {
 }
 
 .imgLogo {
-    width: 70px;
+    width: 100px;
+}
+
+.titulos {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 @media (max-width: 575.98px) {
@@ -82,6 +87,6 @@ body {
     }
 
     .active-cont {
-        margin-left: 170px !important;
+        margin-left: 174px !important;
     }
 }
