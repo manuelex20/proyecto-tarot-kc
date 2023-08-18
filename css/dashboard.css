@@ -26,12 +26,17 @@ body {
     cursor: pointer !important;
     background-color: #9747FF;
 }
-.text-purple{
+
+.text-purple {
     color: #9747FF !important;
 }
+
 .nav-link-active span {
     color: #ffffff !important;
+}
 
+.btn-online {
+    background-color: #28CD46 !important;
 }
 
 .nav-link:active,
@@ -76,6 +81,10 @@ body {
 
 .container2 {
     background-color: #F6F5FF !important;
+}
+
+.card-store {
+    width: 250px !important;
 }
 
 @media (max-width: 575.98px) {
