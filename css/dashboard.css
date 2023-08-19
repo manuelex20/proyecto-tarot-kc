@@ -87,6 +87,32 @@ body {
     width: 250px !important;
 }
 
+.img-suscription {
+    width: 225px !important;
+    height: 225px !important;
+}
+
+.input-form-size {
+    height: 41px !important;
+}
+
+.img-feature {
+    width: 200px;
+    height: 200px;
+}
+
+.form-radius {
+    border-radius: 30px !important;
+}
+
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
+.btn-telegram {
+    background-color: #269DD8;
+}
+
 @media (max-width: 575.98px) {
 
     .side-navbar {
