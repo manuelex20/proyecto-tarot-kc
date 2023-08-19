@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+textarea:focus,
+input:focus {
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
 body {
     min-height: 100vh;
     background-color: #fff;
@@ -111,6 +118,26 @@ body {
 
 .btn-telegram {
     background-color: #269DD8;
+}
+
+.bg-gray {
+    background-color: #DBDBDB !important;
+}
+
+#search-form {
+    width: 90% !important;
+}
+
+#search-form * {
+    outline: none !important;
+    transition: 0.5s ease-in-out;
+}
+
+#search-form input {
+    outline: none !important;
+}
+.nav-link-close{
+    width: 54px !important;
 }
 
 @media (max-width: 575.98px) {
