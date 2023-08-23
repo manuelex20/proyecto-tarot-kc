@@ -155,6 +155,6 @@ body {
     }
 
     .active-cont {
-        margin-left: 174px !important;
+    /*    margin-left: 174px !important;*/
     }
 }
